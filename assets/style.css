@@ -3,7 +3,7 @@
     --color-grey: #292929;
 }
 
-.container{
+.container {
     max-width: unset !important;
 }
 
@@ -357,7 +357,14 @@
         text-align: center;
     }
 
-    .registration-detail{
+    .registration-detail {
         text-align: center;
     }
+}
+
+@media (min-width >=80rem) {
+    .block-link {
+        transform: translateX(-50%);
+    }
+
 }
