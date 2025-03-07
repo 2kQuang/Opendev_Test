@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <link rel="stylesheet" href="./assets/style.css">
+    </head>
+    <body class="font-sg">
+        <div class="container relative max-w-none min-w-[320px] bg-[#191919]">
+            <header class="header-common absolute w-full top-[0] left-[0] z-50 md:py-[20px] md:px-[46px] p-[15px]">
+                <div class="header-viewport flex items-center justify-between">
+                    <a href="#" class="logo-header block max-w-[125px]">
+                        <figure class="logo-thumbnail">
+                            <img class="w-full" src="./assets/images/logo.png" alt="FUN ARENACHEB.CZ" width="125" height="40">
+                        </figure>
+                    </a>
+                    <div class="menu-viewport">
+                        <div class="menu-wrapper flex items-center gap-[10px] md:gap-[32px]">
+                            <div class="menu-icon max-w-[28px]">
+                                <img src="./assets/images/icn_globe.svg" alt="globe" width="28" height="28" class="w-full">
+                            </div>
+                            <div class="button-hamburger cursor-pointer">
+                                <div class="icon-hamburger relative bg-[#292929] w-[48px] h-[48px] rounded-full">
+                                    <span class="absolute left-1/2 top-1/2 inline-block bg-white w-[19px] h-[2px] rounded-[50px]"></span>
+                                    <span class="absolute left-1/2 top-1/2 bg-white w-[13px] h-[2px] rounded-[50px]"></span>
+                                    <span class="absolute left-1/2 top-1/2 inline-block bg-white w-[19px] h-[2px] rounded-[50px]"></span>
+                                </div>
+                            </div>
+                            <div class="navigation-menu fixed left-full">
+                                <nav class="navigation-wrapper"></nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="section-slideshow">
+                    <div class="swiper relative">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img class="w-full" src="./assets/images/slide_01.jpg" width="1512" height="720" alt="GO-KARTS"></div>
+                            <div class="swiper-slide"><img class="w-full" src="./assets/images/slide_02.jpg" width="1512" height="720" alt="JUMPARENA"></div>
+                            <div class="swiper-slide"><img class="w-full" src="./assets/images/slide_03.jpg" width="1512" height="720" alt="Virtuální realita"></div>
+                            <div class="swiper-slide"><img class="w-full" src="./assets/images/slide_04.jpg" width="1512" height="720" alt="MULTIBALL"></div>
+                            <div class="swiper-slide"><img class="w-full" src="./assets/images/slide_05.jpg" width="1512" height="720" alt="Laserová střelnice"></div>
+                        </div>
+                        <div class="swiper-pagination absolute w-max"></div>
+                    </div>
+                    <div class="btn-decor md:w-[265px] md:h-[65px] md:-mt-[58px] w-[160px] h-[40px] -mt-[35px] mx-auto relative z-50">
+                        <img class="relative z-10" src="./assets/images/decor_btn.png" alt="RESERVE NOW!">
+                    </div>
+                </div>
+                <section class="section-top-registration md:py-[100px] lg:pt-[181px] py-[3.75rem]">
+                    <div class="wrapper">
+                        <div class="registration-inner flex content-between flex-wrap lg:gap-[calc(80/1280*100%)] gap-[2rem]">
+                            <div class="registration-heading w-full lg:w-[calc(566/1280*100%)]">
+                                <h2 class="registration-title font-bs md:text-[4.5rem] text-[2.25rem] uppercase text-[#D9D9D9] font-bold tracking-[1.4px] mb-[23px]">Registration</h2>
+                                <div class="registration-detail font-sg font-normal text-[#D9D9D9] line-h text-[1rem]">
+                                    For organizational and security reasons, every visitor to the FUN arena Cheb must register before entering the attraction. At the reception, your registration will be completed and you will receive a loyalty card which you will use for our services.
+                                </div>
+                            </div>
+                            <div class="registration-content w-full lg:w-[calc(634/1280*100%)]">
+                                <div class="list-top-registration">
+                                    <ol class="list-wrapper">
+                                        <li class="list-item">
+                                            <div class="item-heading">
+                                                <div class="heading-number">1</div>
+                                                <div class="heading-title">Choose an Attraction</div>
+                                            </div>
+                                            <div class="item-detail">
+                                                Choose from the attractions of the FUN arena.
+                                            </div>
+                                        </li>
+                                        <li class="list-item">
+                                            <div class="item-heading">
+                                                <div class="heading-number">2</div>
+                                                <div class="heading-title">Register</div>
+                                            </div>
+                                            <div class="item-detail">
+                                                You can register at the reception or by clicking the button above from the comfort of your home.
+                                                <figure class="information-thumbnail"><img src="./assets/images/qr_registration.png" width="128" height="128" alt="qr" class="w-full"></figure>
+                                            </div>
+                                        </li>
+                                        <li class="list-item">
+                                            <div class="item-heading">
+                                                <div class="heading-number">3</div>
+                                                <div class="heading-title">Have Fun</div>
+                                            </div>
+                                            <div class="item-detail">
+                                                Thank you for your online registrations. For each purchase you get points, which you can apply to our services and attractions then. We look forward to you!
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section-top-entertainment md:py-[97px]">
+                    <div class="wrapper">
+                        <div class="entertainment-heading md:pl-[233px] mb-[48px]">
+                            <h2 class="entertainment-title font-bs md:text-[4.5rem] text-[2.25rem] uppercase text-[#D9D9D9] font-bold tracking-[2.3px] mb-[34px] leading-[1.2] md:max-w-[570px]">New entertainment center near cheb</h2>
+                            <div class="entertainment-detail text-[#D9D9D9]  flex justify-between items-end flex-wrap">
+                                <div class="detail-slogan md:max-w-[370px]">We have been entertaining children and adults in western Bohemia for more than 10 years!</div>
+                                <a href="#" class="detail-link inline-flex items-center gap-[13px]">
+                                    <div class="link-text">Find more about us</div>
+                                    <figure class="link-thumbnail max-w-[24px]"><img src="./assets/images/icn_arrow_right.svg" alt="Find more about us" width="24" height="24" class="w-full"></figure>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="entertainment-content">
+                            <a class="content-link relative" data-fancybox href="https://www.youtube.com/watch?v=gR-WO1mvqtk&list=RDgR-WO1mvqtk&start_radio=1&ab_channel=SunMusic">
+                                <figure class="link-thumbnail">
+                                    <img src="./assets/images/img_entertainment.png" alt="New entertainment center near cheb" width="1280" height="567" class="w-full">
+                                </figure>
+                                <div class="icon-play absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+                                    <img src="./assets/images/icon_play.svg" alt="play" width="80" height="80" class="w-full">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section class="section-top-attractions lg:pt-[110px] lg-pb-[98px] py-[3.75rem]">
+                    <div class="wrapper">
+                        <div class="attractions-inner lg:mb-[200px] mb-[75px]">
+                            <div class="attractions-heading flex items-center justify-between flex-wrap lg:mb-[55px] mb-[25px]">
+                                <h2 class="attractions-title font-bs leading-none md:text-[4.5rem] text-[2.25rem] uppercase text-[#D9D9D9] font-bold tracking-[1.4px]">OUR ATTRACTIONS</h2>
+                                <a href="#" class="attractions-link flex items-center lg:gap-[1.5rem] gap-[1rem]">
+                                    <div class="link-text text-[#D9D9D9]">Multiple activities at Fun Arena Cheb</div>
+                                    <div class="link-icon max-w-[2rem]">
+                                        <img class="w-full" src="./assets/images/icn_arrow_left.svg" width="32" height="16" alt="Multiple activities at Fun Arena Cheb">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="attractions-content flex items-center justify-between flex-wrap lg:gap-[0] gap-[40px]">
+                                <div class="list-attractions-categories lg:w-[calc(500/1280*100%)] w-full pr-[37px]">
+                                    <ul class="list-wrapper">
+                                        <li class="list-item">
+                                            <h3 class="item-title">kartarena</h3>
+                                        </li>
+                                        <li class="list-item is-active">
+                                            <h3 class="item-title">jumparena</h3>
+                                        </li>
+                                        <li class="list-item">
+                                            <h3 class="item-title">virtual reality</h3>
+                                        </li>
+                                        <li class="list-item">
+                                            <h3 class="item-title">multiball</h3>
+                                        </li>
+                                        <li class="list-item">
+                                            <h3 class="item-title">laser shooting range</h3>
+                                        </li>
+                                        <li class="list-item">
+                                            <h3 class="item-title">company events</h3>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="content-image relative z-10 lg:w-[calc(780/1280*100%)] w-full">
+                                    <figure><img src="./assets/images/img_attractions_01.png" alt="Arena with lots of attractions for children and adults of all ages. Trampolines, climbing wall, ninja track and other attractions." width="780" height="518" class="w-full"></figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="attractions-outer">
+                            <div class="attractions-block relative flex flex-wrap lg:min-h-[109px] md:max-w-[1000px] py-[23px] xl:pr-[100px] items-center mx-auto">
+                                <div class="block-image max-w-[220px] xl:-mt-[89px] xl:-mb-[73px]">
+                                    <figure><img src="./assets/images/img_giftbox.png" width="220" height="220" alt="Make somebody happy with a gift voucher" class="w-full"></figure>
+                                </div>
+                                <div class="block-content ml-[8px] text-center">
+                                    <div class="content-title font-sg md:text-[2rem] font-medium text-white leading-tight">Make somebody happy with a gift voucher</div>
+                                    <div class="content-detail font-sg md:text-[1rem] font-medium text-white">The voucher is valid for all services. Unforgettable experiences for children and adults!</div>
+                                </div>
+                                <div class="block-link xl:absolute xl:left-full xl:-translate-x-1/2 min-w-[115px]">
+                                    <a class=" bg-white rounded-xl inline-block py-[11px] px-[24px] font-sg font-bold text-[1rem]" href="#">Buy now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer-common lg:pt-[118px] lg:pb-[80px] pb-[40px]">
+                <div class="wrapper">
+                    <div class="footer-heading flex flex-wrap md:justify-between mb-[25px] justify-center">
+                        <div class="logo-footer md:max-w-[200px]">
+                            <img src="./assets/images/logo_footer.png" alt="FUN ARENACHEB.CZ FUN FOR ALL" width="200" height="95" class="w-full">
+                        </div>
+                        <div class="heading-text md:max-w-[300px] font-sg text-white text-[.875rem] pt-[17px] md:text-left text-center">New entertainment centre FUN arena Cheb. You will find entertainment and sports activities for children and adults here.</div>
+                        <div class="heading-information text-[.875rem] text-white pt-[10px] md:text-end text-center w-full md:w-[unset]">
+                            <div class="information-address mb-[9px]">Potočiště 3, 350 02 Odrava</div>
+                            <div class="information-email mb-[9px]"><a href="mailto:fun@funarenacheb.cz">fun@funarenacheb.cz</a></div>
+                            <div class="information-phone"><a href="tel:+420737878891">+420737878891</a></div>
+                        </div>
+                    </div>
+                    <div class="footer-content flex items-center md:justify-between flex-wrap justify-center">
+                        <div class="content-social">
+                            <div class="list-footer-social">
+                                <ul class="list-wrapper flex gap-[.75rem] py-[4px] px-[12px] bg-[#292929] rounded-full">
+                                    <li class="list-item">
+                                        <a href="#"><img src="./assets/images/icn_facebook.svg" width="32" height="32" alt="facebook"></a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="#"><img src="./assets/images/icn_ins.svg" width="32" height="32" alt="Instargram"></a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="#"><img src="./assets/images/icn_gmail.svg" width="32" height="32" alt="Gmail"></a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="#"><img src="./assets/images/icn_phone.svg" width="32" height="32" alt="Phone"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content-group w-full md:w-[unset] flex flex-wrap items-center :md:justify-between justify-center lg:gap-[48px] gap-[10px]">
+                            <div class="content-copyright w-full md:w-[unset] text-center">
+                                <div class="copyright-text text-[.875rem] text-white">© 2025 FUN Arena Cheb. All rights Reserved.</div>
+                            </div>
+                            <div class="btn-totop w-full md:w-[unset] text-center">
+                                <div class="totop-thumbnail py-[17px] px-[14px] bg-[#292929] rounded-full max-w-[40px] m-auto md:m-[unset]">
+                                    <img src="./assets/images/icn_arrow_top.svg" width="12" height="6" alt="To top">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+          
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+        <script src="./assets/apps.js"></script>
+    </body>
+</html>
