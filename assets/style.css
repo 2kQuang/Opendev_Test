@@ -362,7 +362,7 @@
     }
 }
 
-@media (min-width >=80rem) {
+@media (min-width: 80rem) {
     .block-link {
         transform: translateX(-50%);
     }
