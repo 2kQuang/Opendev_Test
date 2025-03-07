@@ -3,6 +3,10 @@
     --color-grey: #292929;
 }
 
+.container{
+    max-width: unset !important;
+}
+
 .wrapper {
     max-width: 80rem;
     width: calc(100% - 3.75rem);
